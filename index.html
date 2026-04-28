@@ -1,0 +1,36 @@
+
+from fastapi.responses import HTMLResponse
+
+@app.get("/", response_class=HTMLResponse)
+ def home():
+ return """
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <title>CSV Audit</title>
+ </head>
+ <body>
+ <h2>Upload CSV for Audit</h2>
+ <input type="file" id="file" />
+ <button onclick="upload()">Upload</button>
+
+ <pre id="result"></pre>
+
+ <script>
+ async function upload() {
+ const fileInput = document.getElementById('file');
+ const formData = new FormData();
+ formData.append("file", fileInput.files[0]);
+
+ const res = await fetch("/audit", {
+ method: "POST",
+ body: formData
+ });
+
+ const data = await res.json();
+ document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+ }
+ </script>
+ </body>
+ </html>
+ """
