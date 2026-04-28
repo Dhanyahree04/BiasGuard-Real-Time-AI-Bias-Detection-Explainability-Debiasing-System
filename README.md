@@ -155,7 +155,7 @@ Output (UI + JSON)
 
 ### Clone the repository
 ```bash
-git clone https://github.com/your-username/fairlens.git
+git clone https://github.com/Dhanyahree04/BiasGuard-Real-Time-AI-Bias-Detection-Explainability-Debiasing-System.git
 cd fairlens
 
 #install dependencies
