@@ -1,12 +1,14 @@
-# fairlens-ai
+**#BiasGuard — Real-Time AI Bias Detection, Explainability & Debiasing System**
+
 Real-time AI bias detection, explainability, and debiasing system using AIF360 and Gemma (Vertex AI) for fair decision-making.
 
-# 🚀 FairLens — Real-Time AI Bias Interception, Explainability & Debiasing Platform
+# BiasGuard — Real-Time AI Bias Detection, Explainability & Debiasing System
+
 
 ---
 
 ## 📌 Overview
-FairLens is a real-time AI bias detection and correction platform that identifies, explains, and mitigates bias in decision-making systems such as hiring, lending, and healthcare.
+BiasGuard is a real-time AI bias detection and correction platform that identifies, explains, and mitigates bias in decision-making systems such as hiring, lending, and healthcare.
 
 It enables users to upload datasets, detect hidden bias using fairness metrics, generate human-readable explanations, and produce fairer alternative outcomes — all before a biased decision reaches a human.
 
@@ -27,7 +29,7 @@ As a result, bias propagates silently, leading to unfair decisions and reduced t
 ---
 
 ## 💡 Solution
-FairLens is a real-time bias interception system that detects bias, explains it clearly, and generates fairer alternatives before decisions are finalized.
+BiasGuard  is a real-time bias interception system that detects bias, explains it clearly, and generates fairer alternatives before decisions are finalized.
 
 The platform operates across four layers:
 
