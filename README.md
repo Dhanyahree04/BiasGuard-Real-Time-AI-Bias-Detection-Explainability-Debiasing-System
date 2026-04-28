@@ -184,7 +184,7 @@ Generates actionable fixes
 Reduces bias while maintaining accuracy
 🎯 Impact
 
-FairLens shifts AI accountability from post-hoc auditing to real-time intervention.
+Bias Guard shifts AI accountability from post-hoc auditing to real-time intervention.
 
 It ensures:
 
